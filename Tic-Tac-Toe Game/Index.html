@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="msg-container">
+        <p id="msg"></p>
+        <input id="player1Name" placeholder="Name of Player 1" autocomplete="off">
+        <input id="player2Name" placeholder="Name of Player 2" autocomplete="off">
+        <button id="new-btn">Start game</button>
+    </div>
+    <main>
+        <h1>Tic-Tac-Toe</h1>
+        <div id="scoreboard" class="hide">
+            <p><span id="player1Display"></span> = <span id="score1">0</span> wins</p>
+            <p><span id="player2Display"></span> = <span id="score2">0</span> wins</p>
+        </div>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset-btn">Reset Game</button>
+    </main>
+    <script src="gpt.js"></script>
+</body>
+</html>
